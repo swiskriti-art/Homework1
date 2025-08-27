@@ -1,0 +1,38 @@
+---
+title: "Homework 1"
+format: html
+editor: visual
+---
+
+## Data Scientists vs Statisticians
+
+1.  I think Data scientists not only analyze the data but also use statistics to develop models to predict the future outcomes.
+
+2.  Statistician is pure science oriented and look at a specific problem. They usually work in small data and developed models to solve them.They are focus on developing new statistical techniques. Where as data scientist is engineering oriented.They clean and analyze large complex data set.they are focus on using practical application of statistical tools to solve the problem.
+
+3.  The main similarities of both are: they both use statistical techniques to analyze the data set and get insights.They both solve problems through knowledge of machine learning.
+
+4.  I view myself as a data scientist more. I wanted to make my career as a Data Analyst. I believe Data Analyst and Data scientist have more things in common. Data scientist can perform everything that data analyst can do like data cleaning, prepossessing and analysis, which is of more interest to me.
+
+## Using R
+
+Use density function and store result in Y object
+
+```{r}
+y <-density(iris$Petal.Width)
+```
+
+getting class type and structure of object y
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+Create a plot of object y
+
+```{r}
+#| echo: false
+plot(y)
+```

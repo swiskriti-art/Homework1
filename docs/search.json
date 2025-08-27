@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "HW 1.html",
+    "href": "HW 1.html",
+    "title": "Homework 1",
+    "section": "",
+    "text": "I think Data scientists not only analyze the data but also use statistics to develop models to predict the future outcomes.\nStatistician is pure science oriented and look at a specific problem. They usually work in small data and developed models to solve them.They are focus on developing new statistical techniques. Where as data scientist is engineering oriented.They clean and analyze large complex data set.they are focus on using practical application of statistical tools to solve the problem.\nThe main similarities of both are: they both use statistical techniques to analyze the data set and get insights.They both solve problems through knowledge of machine learning.\nI view myself as a data scientist more. I wanted to make my career as a Data Analyst. I believe Data Analyst and Data scientist have more things in common. Data scientist can perform everything that data analyst can do like data cleaning, prepossessing and analysis, which is of more interest to me."
+  },
+  {
+    "objectID": "HW 1.html#data-scientists-vs-statisticians",
+    "href": "HW 1.html#data-scientists-vs-statisticians",
+    "title": "Homework 1",
+    "section": "",
+    "text": "I think Data scientists not only analyze the data but also use statistics to develop models to predict the future outcomes.\nStatistician is pure science oriented and look at a specific problem. They usually work in small data and developed models to solve them.They are focus on developing new statistical techniques. Where as data scientist is engineering oriented.They clean and analyze large complex data set.they are focus on using practical application of statistical tools to solve the problem.\nThe main similarities of both are: they both use statistical techniques to analyze the data set and get insights.They both solve problems through knowledge of machine learning.\nI view myself as a data scientist more. I wanted to make my career as a Data Analyst. I believe Data Analyst and Data scientist have more things in common. Data scientist can perform everything that data analyst can do like data cleaning, prepossessing and analysis, which is of more interest to me."
+  },
+  {
+    "objectID": "HW 1.html#using-r",
+    "href": "HW 1.html#using-r",
+    "title": "Homework 1",
+    "section": "Using R",
+    "text": "Using R\nUse density function and store result in Y object\n\ny &lt;-density(iris$Petal.Width)\n\ngetting class type and structure of object y\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nCreate a plot of object y"
+  }
+]
